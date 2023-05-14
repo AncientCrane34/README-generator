@@ -6,7 +6,7 @@ const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
-
+const licenses = ['MIT', 'Apache', 'GPL', 'None']
 const questions = [{
     type: 'input',
     message: 'What is the name of your project?',
@@ -28,10 +28,10 @@ const questions = [{
     name: 'usage'
 },
 {
-    type: 'checkbox',
+    type: 'list',
     message: 'Which license did you use?',
     name: 'license',
-    choices: ['MIT', 'Apache', 'GPL']
+    choices: licenses
 },
 {
     type: 'input',
@@ -84,7 +84,6 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function (userInput) {
-        console.log(userInput)
         writeToFile('README.md', generateMarkdown(userInput))
     })
 }
