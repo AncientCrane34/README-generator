@@ -1,4 +1,4 @@
-# Readme Generator
+# ReadMe generator
   
   
   ## Table of Contents
@@ -7,7 +7,7 @@
   [Usage](#usage)
   [Credits](#credits)
   [Testing](#testing)
-  [Contact Info](#contact info)
+  [Contact_Info](#contact info)
   ## Description:
   As a developer: I want to create a readme generator to quickly create a readme file quickly.
   ## Installation Instructions:
