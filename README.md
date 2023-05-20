@@ -7,7 +7,7 @@
   [Usage](#usage)
   [Credits](#credits)
   [Testing](#testing)
-  [Contact_Info](#contact info)
+  [Contact_Info](#contact_info)
   ## Description:
   As a developer: I want to create a readme generator to quickly create a readme file quickly.
   ## Installation Instructions:

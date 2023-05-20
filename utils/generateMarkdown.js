@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   [Usage](#usage)
   [Credits](#credits)
   [Testing](#testing)
-  [Contact Info](#contact info)
+  [Contact_Info](#contact_info)
   ## Description:
   ${data.description}
   ## Installation Instructions:
