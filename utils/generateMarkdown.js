@@ -53,7 +53,7 @@ function generateMarkdown(data) {
   ${data.test}
   ## Credits:
   ${data.credits}
-  ### Contact Info:
+  ### Contact_Info:
   Github: [${data.username}](https://github.com/${data.username})
   Email: ${data.email}
 `;
